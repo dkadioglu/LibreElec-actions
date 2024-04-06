@@ -95,7 +95,7 @@ concurrency:
 
 jobs:
   build_image:
-    runs-on: [self-hosted, nightly]
+    runs-on: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v4
