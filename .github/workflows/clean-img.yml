@@ -18,7 +18,7 @@ on:
           - force_remove_le11
 jobs:
   clean_img:
-    runs-on: [self-hosted, scripts]
+    runs-on: [ubuntu-latest, scripts]
 
     steps:
       - name: log variables
